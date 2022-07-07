@@ -2,6 +2,7 @@
   "globals": {
     "EffectScope": true,
     "acceptHMRUpdate": true,
+    "api_testRequest": true,
     "asyncComputed": true,
     "autoResetRef": true,
     "computed": true,
@@ -28,6 +29,7 @@
     "eagerComputed": true,
     "effectScope": true,
     "extendRef": true,
+    "foo": true,
     "getActivePinia": true,
     "getCurrentInstance": true,
     "getCurrentScope": true,

@@ -4,8 +4,15 @@
     <p>vite + vue3 + ts 开箱即用现代开发模板</p>
 </div>
 
-<br />
-<br />
+```pnpm
+支持老浏览器
+pnpm add -D @vitejs/plugin-legacy 
+升级vue-request 管理器
+pnpm remove vue-request    
+pnpm add -D vue-request@next
+底层使用
+pnpm add -D axios
+```
 
 ## 特点 🐳
 
@@ -340,9 +347,9 @@ eg:
 ```html
 <!-- src/layouts/default.vue -->
 <template>
-	我是默认布局
-	<router-view />
-	<!-- 页面视图出口 -->
+ 我是默认布局
+ <router-view />
+ <!-- 页面视图出口 -->
 </template>
 ```
 
@@ -351,7 +358,7 @@ eg:
 ```html
 <!-- src/pages/index.vue -->
 <template>
-	<div>我是首页</div>
+ <div>我是首页</div>
 </template>
 ```
 
@@ -366,7 +373,7 @@ eg:
 ```html
 <!-- src/pages/about.vue -->
 <template>
-	<div>我是关于页</div>
+ <div>我是关于页</div>
 </template>
 ```
 
@@ -385,9 +392,9 @@ eg:
 ```html
 <!-- src/layouts/custom.vue -->
 <template>
-	我是非默认布局custom
-	<router-view />
-	<!-- 页面视图出口 -->
+ 我是非默认布局custom
+ <router-view />
+ <!-- 页面视图出口 -->
 </template>
 ```
 
@@ -396,7 +403,7 @@ eg:
 ```html
 <!-- src/pages/index.vue -->
 <template>
-	<div>我是首页</div>
+ <div>我是首页</div>
 </template>
 
 <!-- 添加自定义块 👇 -->
@@ -422,18 +429,18 @@ eg:
 ```ts
 import { MockMethod } from 'vite-plugin-mock'
 export default [
-	{
-		url: '/api/get',
-		method: 'get',
-		response: () => {
-			return {
-				code: 0,
-				data: {
-					name: 'vben',
-				},
-			}
-		},
-	},
+ {
+  url: '/api/get',
+  method: 'get',
+  response: () => {
+   return {
+    code: 0,
+    data: {
+     name: 'vben',
+    },
+   }
+  },
+ },
 ] as MockMethod[]
 ```
 
@@ -441,15 +448,15 @@ export default [
 
 ```html
 <script setup lang="ts">
-	import { useRequest } from 'vue-request'
-	// 请求接口 /api/get
-	const { data, loading, error } = useRequest('/api/get')
+ import { useRequest } from 'vue-request'
+ // 请求接口 /api/get
+ const { data, loading, error } = useRequest('/api/get')
 </script>
 
 <template>
-	<div>data: {{data}}</div>
-	<div>loading: {{loading}}</div>
-	<div>error: {{error}}</div>
+ <div>data: {{data}}</div>
+ <div>loading: {{loading}}</div>
+ <div>error: {{error}}</div>
 </template>
 ```
 
@@ -501,11 +508,11 @@ export default 1000
 
 ```html
 <script setup lang="ts">
-	console.log(foo) // 输出 1000
+ console.log(foo) // 输出 1000
 </script>
 
 <template>
-	<div @click="store.inc()">{{store.counter}}</div>
+ <div @click="store.inc()">{{store.counter}}</div>
 </template>
 ```
 
@@ -516,16 +523,16 @@ export default 1000
 ```ts
 // default 导出
 export default defineStore('counter', {
-	state() {
-		return {
-			counter: 1,
-		}
-	},
-	actions: {
-		inc() {
-			this.counter++
-		},
-	},
+ state() {
+  return {
+   counter: 1,
+  }
+ },
+ actions: {
+  inc() {
+   this.counter++
+  },
+ },
 })
 ```
 
@@ -533,11 +540,11 @@ export default defineStore('counter', {
 
 ```html
 <script setup lang="ts">
-	const store = counterStore()
+ const store = counterStore()
 </script>
 
 <template>
-	<div @click="store.inc()">{{store.counter}}</div>
+ <div @click="store.inc()">{{store.counter}}</div>
 </template>
 ```
 
@@ -552,11 +559,11 @@ export default defineStore('counter', {
 ```html
 <!-- src/pages/index.vue -->
 <script setup lang="ts">
-	import Hello from '../components/Hello.vue'
+ import Hello from '../components/Hello.vue'
 </script>
 
 <template>
-	<Hello />
+ <Hello />
 </template>
 ```
 
@@ -565,7 +572,7 @@ export default defineStore('counter', {
 ```html
 <!-- src/pages/index.vue -->
 <template>
-	<Hello />
+ <Hello />
 </template>
 ```
 
@@ -585,7 +592,7 @@ pnpm add naive-ui
 ```html
 <!-- src/pages/index.vue -->
 <template>
-	<n-button type="success">Success</n-button>
+ <n-button type="success">Success</n-button>
 </template>
 ```
 
@@ -631,7 +638,7 @@ pnpm add naive-ui
 
 ```html
 <template>
-	<i-mdi:account-box-multiple />
+ <i-mdi:account-box-multiple />
 </template>
 ```
 
@@ -654,7 +661,7 @@ npm i @iconify/mdi -D
 ```html
 <!-- 模板中代码 -->
 <template>
-	<i-mdi:account-box-multiple />
+ <i-mdi:account-box-multiple />
 </template>
 ```
 
@@ -672,13 +679,13 @@ npm i @iconify/mdi -D
 
 ```html
 <script setup lang="ts">
-	// useMouse 被自动按需引入了，不需要import
-	const { x, y } = useMouse()
+ // useMouse 被自动按需引入了，不需要import
+ const { x, y } = useMouse()
 </script>
 
 <template>
-	<div>x坐标 {{x}}</div>
-	<div>y坐标 {{y}}</div>
+ <div>x坐标 {{x}}</div>
+ <div>y坐标 {{y}}</div>
 </template>
 ```
 
@@ -700,8 +707,8 @@ npm i @iconify/mdi -D
 
 ```html
 <template>
-	<div class="bg-red-500 text-white">我是红色背景的白色文本</div>
-	<template></template
+ <div class="bg-red-500 text-white">我是红色背景的白色文本</div>
+ <template></template
 ></template>
 ```
 
@@ -711,8 +718,8 @@ npm i @iconify/mdi -D
 
 ```html
 <template>
-	<div text="white" bg="red-500">我是红色背景的白色文本</div>
-	<template></template
+ <div text="white" bg="red-500">我是红色背景的白色文本</div>
+ <template></template
 ></template>
 ```
 
@@ -766,16 +773,16 @@ export const useDarks = () => ({ isDark, toggleDark })
 
 ```html
 <script setup lang="ts">
-	import { useDarks } from '../composables/useDarks'
+ import { useDarks } from '../composables/useDarks'
 
-	const { isDark, toggleDark } = useDarks()
+ const { isDark, toggleDark } = useDarks()
 </script>
 
 <template>
-	<div m="6">Hello，This is the tov template！！</div>
-	<div m="6" cursor="pointer" @click="toggleDark()">
-		light: {{ isDark }} click me!!
-	</div>
+ <div m="6">Hello，This is the tov template！！</div>
+ <div m="6" cursor="pointer" @click="toggleDark()">
+  light: {{ isDark }} click me!!
+ </div>
 </template>
 ```
 
@@ -793,14 +800,14 @@ SWR 是更现代的请求方式，具体可见文章 👉 [SWR](https://zhuanlan
 
 ```html
 <script setup lang="ts">
-	import { useRequest } from 'vue-request'
-	const { data, loading, error } = useRequest('/api/test')
+ import { useRequest } from 'vue-request'
+ const { data, loading, error } = useRequest('/api/test')
 </script>
 
 <template>
-	<div>data: {{data}}</div>
-	<div>error: {{error}}</div>
-	<div>loading: {{loading}}</div>
+ <div>data: {{data}}</div>
+ <div>error: {{error}}</div>
+ <div>loading: {{loading}}</div>
 </template>
 ```
 
@@ -823,14 +830,14 @@ SWR 是更现代的请求方式，具体可见文章 👉 [SWR](https://zhuanlan
 import { defineStore } from 'pinia'
 
 export const useCounterStore = defineStore('counter', {
-	state: () => {
-		return { count: 0 }
-	},
-	actions: {
-		inc() {
-			this.count++
-		},
-	},
+ state: () => {
+  return { count: 0 }
+ },
+ actions: {
+  inc() {
+   this.count++
+  },
+ },
 })
 ```
 
@@ -869,15 +876,15 @@ export const useCounterStore = defineStore('counter', {
 
 /** 省略其他样式 **/
 #nprogress .bar {
-	@apply bg-purple-700 bg-opacity-75; /** 配色 **/
+ @apply bg-purple-700 bg-opacity-75; /** 配色 **/
 
-	position: fixed;
-	z-index: 1031;
-	top: 0;
-	left: 0;
+ position: fixed;
+ z-index: 1031;
+ top: 0;
+ left: 0;
 
-	width: 100%;
-	height: 2px;
+ width: 100%;
+ height: 2px;
 }
 ```
 
@@ -954,18 +961,18 @@ export default (app: App) => app.use(router)
 import { it, describe, expect, assert } from 'vitest'
 
 describe('suite name', () => {
-	it('foo', () => {
-		expect(1 + 1).toEqual(2)
-		expect(true).to.be.true
-	})
+ it('foo', () => {
+  expect(1 + 1).toEqual(2)
+  expect(true).to.be.true
+ })
 
-	it('bar', () => {
-		assert.equal(Math.sqrt(4), 2)
-	})
+ it('bar', () => {
+  assert.equal(Math.sqrt(4), 2)
+ })
 
-	it('snapshot', () => {
-		expect({ foo: 'bar' }).toMatchSnapshot()
-	})
+ it('snapshot', () => {
+  expect({ foo: 'bar' }).toMatchSnapshot()
+ })
 })
 ```
 
@@ -1019,10 +1026,10 @@ pnpm coverage
 ```html
 <!-- src/pages/index.vue -->
 <script lang="ts" setup>
-	import { useDarks } from '~/composables/dark'
+ import { useDarks } from '~/composables/dark'
 
-	// 等价于
-	// import { useDarks } from "../composables/dark"
+ // 等价于
+ // import { useDarks } from "../composables/dark"
 </script>
 ```
 
@@ -1082,20 +1089,20 @@ not-found: 未找到页面
 
 ```html
 <script setup>
-	// 该api是全局按需引入的，所以可以直接用
-	// t 用来绑定特定的语块
-	const { t, locale } = useI18n()
+ // 该api是全局按需引入的，所以可以直接用
+ // t 用来绑定特定的语块
+ const { t, locale } = useI18n()
 
-	const toggleLocale = () => {
-		// locale.value 用来表示当前所属语言，可修改进行语言切换
-		locale.value = locale.value === 'zh-CN' ? 'en' : 'zh-CN'
-	}
+ const toggleLocale = () => {
+  // locale.value 用来表示当前所属语言，可修改进行语言切换
+  locale.value = locale.value === 'zh-CN' ? 'en' : 'zh-CN'
+ }
 </script>
 
 <template>
-	<div m="6" cursor="pointer" @click="toggleLocale()">
-		language: {{ t('index') }} click me!!
-	</div>
+ <div m="6" cursor="pointer" @click="toggleLocale()">
+  language: {{ t('index') }} click me!!
+ </div>
 </template>
 ```
 
@@ -1131,7 +1138,7 @@ not-found: 未找到页面
 ```html
 <!-- 省略各种代码 -->
 <template>
-	<img src="/notFound/32.svg" class="cover" alt="page not found" />
+ <img src="/notFound/32.svg" class="cover" alt="page not found" />
 </template>
 ```
 
@@ -1140,7 +1147,7 @@ not-found: 未找到页面
 ```html
 <!-- 省略各种代码 -->
 <template>
-	<img src="/notFound/33.svg" class="cover" alt="page not found" />
+ <img src="/notFound/33.svg" class="cover" alt="page not found" />
 </template>
 ```
 
@@ -1160,15 +1167,15 @@ not-found: 未找到页面
 ```tsx
 // src/components/foo.tsx
 export default defineComponent({
-	render() {
-		return <div>Test</div>
-	},
+ render() {
+  return <div>Test</div>
+ },
 })
 ```
 
 ```html
 <template>
-	<foo />
+ <foo />
 </template>
 ```
 

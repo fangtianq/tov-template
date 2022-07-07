@@ -30,7 +30,7 @@ const back = () => router.push('/')
 			</button>
 		</div>
 
-		<img src="/notFound/32.svg" class="cover" alt="page not found" />
+		<img src="/notFound/33.svg" class="cover" alt="page not found" />
 	</div>
 </template>
 

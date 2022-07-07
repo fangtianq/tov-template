@@ -1,9 +1,12 @@
 import { useRequest } from 'vue-request'
+import axios from 'axios';
 
-export const testRequest = () => {
-	const { data, loading, error } = useRequest({
-		url: '/api/post',
-		method: 'post',
-	})
-	return { data, loading, error }
+const post = () => {
+  return axios.post('api/post', {
+    params: {
+    },
+  });
+};
+export const api_testRequest = () => {
+	return useRequest(post)
 }

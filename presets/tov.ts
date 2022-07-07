@@ -111,6 +111,7 @@ export default () => {
 				dirs: [
 					env.VITE_APP_API_AUTO_IMPORT && 'src/stores',
 					env.VITE_APP_API_AUTO_IMPORT && 'src/composables',
+					env.VITE_APP_API_AUTO_IMPORT && 'src/api',
 				],
 				dts: './presets/types/auto-imports.d.ts',
 				imports: ['vue', 'pinia', 'vue-i18n', 'vue-router', '@vueuse/core'],

@@ -20,5 +20,8 @@ const theme = computed(() => (isDark.value ? 'dark' : 'light'))
 		<div>language: {{ language }}</div>
 		<div>base: {{ t('about') }}</div>
 		<div>nesting: {{ t('nesting.sir') }} {{ t('nesting.lady') }}</div>
+		<div><router-link to="/test">go >> test</router-link></div>
+		<div><router-link to="/about">go >> about</router-link></div>
+		<div><router-link to="/demo/user/fangtq">go >> fangtq</router-link></div>
 	</div>
 </template>
