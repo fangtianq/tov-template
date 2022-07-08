@@ -1,12 +1,10 @@
 <script setup lang="ts">
 const { t, locale } = useI18n()
-
 const { isDark, toggleDark } = useDarks()
-
 const toggleLocale = () => {
 	locale.value = locale.value === 'zh-CN' ? 'en' : 'zh-CN'
 }
-
+const _append = foo.append
 const language = computed(() => (locale.value === 'zh-CN' ? '中文' : 'English'))
 
 const theme = computed(() => (isDark.value ? 'dark' : 'light'))
@@ -20,8 +18,16 @@ const theme = computed(() => (isDark.value ? 'dark' : 'light'))
 		<div>language: {{ language }}</div>
 		<div>base: {{ t('about') }}</div>
 		<div>nesting: {{ t('nesting.sir') }} {{ t('nesting.lady') }}</div>
-		<div><router-link to="/test">go >> test</router-link></div>
-		<div><router-link to="/about">go >> about</router-link></div>
-		<div><router-link to="/demo/user/fangtq">go >> fangtq</router-link></div>
+		<div>
+			<router-link :to="_append($route.path, 'test')">go >> test</router-link>
+		</div>
+		<div>
+			<router-link :to="_append($route.path, 'about')">go >> about</router-link>
+		</div>
+		<div>
+			<router-link :to="_append($route.path, 'demo/user/fangtq')"
+				>go >> fangtq</router-link
+			>
+		</div>
 	</div>
 </template>

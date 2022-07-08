@@ -11,6 +11,6 @@ export default defineConfig({
 	},
 	plugins: [Tov()],
 	build:{
-		outDir:"dist",
+		outDir:"dist/tov-template",
 	},
 })
