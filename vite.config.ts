@@ -1,6 +1,7 @@
 import { resolve } from 'path'
 import Tov from './presets/tov'
 import { defineConfig } from 'vite'
+import legacy from '@vitejs/plugin-legacy'
 
 export default defineConfig({
 	base:"./",
@@ -9,7 +10,12 @@ export default defineConfig({
 			'~/': `${resolve(__dirname, 'src')}/`,
 		},
 	},
-	plugins: [Tov()],
+	plugins: [
+		Tov(),
+		legacy({
+      targets: ['Firefox 52']
+    })
+	],
 	build:{
 		outDir:"dist",
 	},
