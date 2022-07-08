@@ -59,7 +59,7 @@ export default () => {
 		Pages({
 			extensions: ['vue', 'md', 'tsx'],
 			dirs: [
-        { dir: 'src/pages', baseRoute: 'tov-template' },
+        { dir: 'src/pages', baseRoute: '' },
         { dir: 'src/features/**/pages', baseRoute: 'features' },
         { dir: 'src/admin/pages', baseRoute: 'admin' },
       ],
