@@ -22,5 +22,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.admin }}
-          branch: main
+          branch: gh-pages
           folder: dist
