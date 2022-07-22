@@ -58,6 +58,11 @@ export default () => {
 		// 文件路由
 		Pages({
 			extensions: ['vue', 'md', 'tsx'],
+			dirs: [
+        { dir: 'src/pages', baseRoute: '' },
+        { dir: 'src/features/**/pages', baseRoute: 'features' },
+        { dir: 'src/admin/pages', baseRoute: 'admin' },
+      ],
 		}),
 		// 布局系统
 		Layouts(),

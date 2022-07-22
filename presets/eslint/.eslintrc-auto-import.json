@@ -69,6 +69,7 @@
     "onStartTyping": true,
     "onUnmounted": true,
     "onUpdated": true,
+    "packageJson": true,
     "pausableWatch": true,
     "provide": true,
     "reactify": true,
