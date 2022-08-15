@@ -1,0 +1,1 @@
+import{d as n,u as s}from"./index.5286b9c3.js";import{p as t}from"./packageJson.82c8ddda.js";const m=n({__name:"Index",setup(a){const e=s(),o=t.config.name;return e.push("/"+o),()=>{}}});export{m as default};
