@@ -1,1 +1,0 @@
-System.register(["./index-legacy.9e4f350c.js"],(function(e){"use strict";var t,n,r,u;return{setters:[function(e){t=e._,n=e.a,r=e.p,u=e.i}],execute:function(){e("default",t({},[["render",function(e,t){const c=u("router-view");return n(),r(c)}]]))}}}));
