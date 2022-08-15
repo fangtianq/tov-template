@@ -15,10 +15,10 @@ const showExt = (type, isMarkdown = false) => {
  */
 const moduleTypes = [
 	'api',
-	'page',
 	'store',
-	'layout',
 	'module',
+	'page',
+	'layout',
 	'component',
 	'composable',
 ]

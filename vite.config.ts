@@ -13,8 +13,8 @@ export default defineConfig({
 	plugins: [
 		Tov(),
 		legacy({
-      targets: ['Firefox 52']
-    })
+			targets: ['Firefox 52']
+		})
 	],
 	build:{
 		outDir:"dist",

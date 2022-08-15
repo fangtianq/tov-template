@@ -51,25 +51,25 @@ pnpm add -D axios
 
 ## 克隆模板 🦕
 
-1. Github
+1.Github
 
 ```shell
 git clone git@github.com:dishait/tov-template.git
 ```
 
-2. Gitee
+2.Gitee
 
 ```shell
 git clone git@gitee.com:dishait/tov-template.git
 ```
 
-3. degit
+3.degit
 
 ```shell
 npx degit https://github.com/dishait/tov-template#main
 ```
 
-4. 新的 `Github` 仓库 👉 [Use this template](https://github.com/dishait/tov-template/generate)
+4.新的 `Github` 仓库 👉 [Use this template](https://github.com/dishait/tov-template/generate)
 
 <br />
 <br />
@@ -89,7 +89,7 @@ npx degit https://github.com/dishait/tov-template#main
 
 强烈推荐大家使用更快更合理的 `pnpm` 包管理器 👉 [安装教程](https://pnpm.io/zh/installation)
 
-1. 安装依赖
+1.安装依赖
 
 ```shell
 pnpm install
@@ -98,7 +98,7 @@ pnpm install
 # 或者 yarn
 ```
 
-2. 开发
+2.开发
 
 ```shell
 pnpm dev
@@ -119,7 +119,7 @@ pnpm dev:open
 # 或者 yarn dev:open
 ```
 
-3. 预览
+3.预览
 
 ```shell
 pnpm preview
@@ -140,7 +140,7 @@ pnpm preview:open
 # 或者 yarn preview:open
 ```
 
-4. 打包
+4.打包
 
 ```shell
 pnpm build
@@ -149,7 +149,7 @@ pnpm build
 # 或者 yarn build
 ```
 
-5. 单元测试
+5.单元测试
 
 ```shell
 pnpm test
@@ -158,7 +158,7 @@ pnpm test
 # 或者 yarn test
 ```
 
-6. 单元测试报告生成
+6.单元测试报告生成
 
 ```shell
 pnpm coverage
@@ -167,7 +167,7 @@ pnpm coverage
 # 或者 yarn coverage
 ```
 
-7. 样式报告预览
+7.样式报告预览
 
 ```shell
 pnpm analysis
@@ -176,7 +176,7 @@ pnpm analysis
 # 或者 yarn analysis
 ```
 
-8. 样式报告打包
+8.样式报告打包
 
 ```shell
 pnpm analysis:build
@@ -185,7 +185,7 @@ pnpm analysis:build
 # 或者 yarn analysis:build
 ```
 
-9. 类型检查
+9.类型检查
 
 ```shell
 pnpm typecheck
@@ -194,7 +194,7 @@ pnpm typecheck
 # 或者 yarn typecheck
 ```
 
-10. 自动创建
+10.自动创建
 
 ```shell
 pnpm auto:create
@@ -203,7 +203,7 @@ pnpm auto:create
 # 或者 yarn auto:create
 ```
 
-11. 自动移除
+11.自动移除
 
 ```shell
 pnpm auto:remove
@@ -212,7 +212,7 @@ pnpm auto:remove
 # 或者 yarn auto:remove
 ```
 
-12. 依赖更新
+12.依赖更新
 
 ```shell
 # 安全版本更新
@@ -248,7 +248,7 @@ pnpm i
 # 或者 yarn
 ```
 
-13. 代码规范校验
+13.代码规范校验
 
 ```shell
 pnpm lint
@@ -263,7 +263,7 @@ pnpm lint:fix
 # 或者 npm run lint:fix
 # 或者 yarn lint:fix
 ```
-
+  
 <br />
 <br />
 
@@ -335,9 +335,7 @@ eg:
 - `src/pages/[...notFound].vue` => 404 路由
 
 具体可见 👉 [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages#file-system-routing)
-
-<br />
-
+  
 ### [4. 布局系统](https://github.com/dishait/vite-plugin-vue-meta-layouts)
 
 #### 默认布局
@@ -382,9 +380,7 @@ eg:
 ```html
 我是默认布局 我是关于页
 ```
-
-<br />
-
+  
 #### 非默认布局
 
 随便创建一个 `src/layouts/custom.vue`
@@ -417,9 +413,7 @@ eg:
 ```
 
 具体可见 👉 [vite-plugin-vue-meta-layouts](https://github.com/dishait/vite-plugin-vue-meta-layouts)
-
-<br />
-
+  
 ### [5. Mock 支持](https://github.com/vbenjs/vite-plugin-mock)
 
 在根目录下的 `mock` 目录下，可以在模块中导出默认的 `api` 资源。
@@ -463,9 +457,7 @@ export default [
 这里用到 [vue-request](https://cn.attojs.org/) 去做请求，不过因为该 `mock` 拦截的是一整个接口，所以换成 `axios` 等请求库也是可以的。
 
 更多 `mock` 设置可见 👉 [vite-plugin-mock](https://github.com/vbenjs/vite-plugin-mock)
-
-<br />
-
+  
 ### [6. Api 自动引入](https://github.com/antfu/unplugin-auto-import)
 
 原本 `vue` 的 `api` 需要自行 `import`。
@@ -549,9 +541,7 @@ export default defineStore('counter', {
 ```
 
 具体可见 👉 [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)。
-
-<br />
-
+  
 ### [7. 组件自动引入](https://github.com/antfu/unplugin-auto-import)
 
 原来需要 `import`
@@ -617,9 +607,7 @@ pnpm add naive-ui
 [@vueuse/components](https://github.com/vueuse/vueuse/tree/main/packages/components)
 
 具体可见 👉 [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
-
-<br />
-
+  
 ### [8. 图标自动引入](https://github.com/antfu/unplugin-auto-import)
 
 可前往 👉 [icones](https://icones.netlify.app/)，随意选择点击进入其中一个图标库
@@ -670,9 +658,7 @@ npm i @iconify/mdi -D
 ![icons-preview](public/docs/icons-preview.png)
 
 具体可见 👉 [unplugin-icons](https://github.com/antfu/unplugin-icons)
-
-<br />
-
+  
 ### [9. VueUse 支持](https://vueuse.org/)
 
 `VueUse` 是一个超级强的 `hooks` 库，例如你要获取鼠标位置，只需要这样 👇
@@ -690,15 +676,11 @@ npm i @iconify/mdi -D
 ```
 
 具体可见 👉 [VueUse](https://vueuse.org/)
-
-<br />
-
+  
 ### [10. TypeScript 的](https://www.tslang.cn/)
 
 不需要重新配置，直接用 `ts` 书写就行了。
-
-<br />
-
+  
 ### [11. Windi CSS 的](https://cn.windicss.org/)
 
 `Windi CSS` 是一个开发中速度更快的 `原子css` 库。
@@ -748,9 +730,7 @@ pnpm analysis:build
 ```
 
 具体可见 👉 [Windi CSS](https://cn.windicss.org/)
-
-<br />
-
+  
 ### [12. 暗黑模式支持](https://cn.windicss.org/features/dark-mode.html#dark-mode)
 
 暗黑模式由 `Windi CSS` 的 `暗黑模式` 和 `VueUse` 实现。
@@ -787,9 +767,7 @@ export const useDarks = () => ({ isDark, toggleDark })
 ```
 
 具体可见 👉 [暗黑模式](https://cn.windicss.org/features/dark-mode.html#dark-mode)
-
-<br />
-
+  
 ### [13. SWR 请求支持](https://cn.attojs.org/)
 
 SWR 是更现代的请求方式，具体可见文章 👉 [SWR](https://zhuanlan.zhihu.com/p/89570321)。
@@ -814,9 +792,7 @@ SWR 是更现代的请求方式，具体可见文章 👉 [SWR](https://zhuanlan
 所有基本的数据，状态和缓存都帮你搞定了，不需要重新封装。
 
 具体可见 👉 [vue-request](https://cn.attojs.org/)
-
-<br />
-
+  
 ### [14. pinia 状态管理](https://pinia.vuejs.org/)
 
 `pinia` 是下一代的状态管理库，比 `vuex` 更简单，`ts` 支持更好。
@@ -857,16 +833,18 @@ export const useCounterStore = defineStore('counter', {
 
 更多具体使用可见 👉 [pinia](https://pinia.vuejs.org/)
 
-<br />
+pinia持久化存储插件pinia-plugin-persist 👉[pinia-plugin-persist](https://seb-l.github.io/pinia-plugin-persist/basic-usage.html)
 
+```node
+pnpm i pinia-plugin-persist --save-dev
+```
+  
 ### [15. pnpm 包管理器](https://pnpm.io/zh/)
 
 `pnpm` 是非常优秀的包管理器，更快、更节省空间、更合理。
 
 具体可见 👉 [pnpm](https://pnpm.io/zh/)
-
-<br />
-
+  
 ### [16. 跳转进度条支持](https://github.com/rstacruz/nprogress)
 
 跳转进度条由 `nprogress` 实现，可在`src/styles/main.css` 中调整配色。
@@ -891,9 +869,7 @@ export const useCounterStore = defineStore('counter', {
 关于 `@apply` 由 [Windi Css apply 指令](https://cn.windicss.org/features/directives.html#apply) 实现。
 
 具体可见 👉 [nprogress](https://github.com/rstacruz/nprogress)
-
-<br />
-
+  
 ### [17. Inspect 调试支持](https://github.com/antfu/vite-plugin-inspect)
 
 启动项目

@@ -10,6 +10,6 @@ import App from './App.vue'
 
 const app = createApp(App)
 
-app.config.globalProperties.全局变量 = "全局变量"
+app.config.globalProperties.全局变量 = "quanjubianliang"
 
 app.mount('#app')
