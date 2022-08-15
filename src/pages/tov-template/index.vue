@@ -25,8 +25,8 @@ const theme = computed(() => (isDark.value ? 'dark' : 'light'))
 			<router-link :to="_append($route.path, 'about')">go >> about</router-link>
 		</div>
 		<div>
-			<router-link :to="_append($route.path, 'demo/user/fangtq')"
-				>go >> fangtq</router-link
+			<router-link :to="_append($route.path, 'demo/user/pinia')"
+				>go >> pinia</router-link
 			>
 		</div>
 	</div>

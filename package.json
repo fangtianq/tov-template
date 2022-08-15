@@ -26,6 +26,7 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
+		"element-plus": "^2.2.13",
 		"vue": "^3.2.37"
 	},
 	"engines": {
