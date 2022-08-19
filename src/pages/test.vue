@@ -11,3 +11,4 @@ console.log(foo.getFirstWord('ff')) // 输出 1000
 const { x, y } = useMouse()
 const fps = useFps()
 </script>
+<route> { meta: { layout: 'home' } } </route>

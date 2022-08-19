@@ -4,9 +4,9 @@
 		class="el-menu-demo"
 		mode="horizontal"
 		:ellipsis="false"
-		@select="handleSelect"
+		:router="true"
 	>
-		<el-menu-item index="index">首页</el-menu-item>
+		<el-menu-item index="/">首页</el-menu-item>
 		<div class="flex-grow" />
 		<el-sub-menu index="2">
 			<template #title>Workspace</template>
@@ -27,16 +27,8 @@
 </template>
 
 <script lang="ts" setup>
-const activeIndex = '/demo/user/pinia'
-const _useRouter = useRouter()
-const handleSelect = (key: string, keyPath: string[]) => {
-	console.log(key, keyPath)
-	if (key == 'index') {
-		_useRouter.push(`/${packageJson.config.name}`)
-	} else {
-		_useRouter.push(`/${packageJson.config.name}${key}`)
-	}
-}
+import { Ref } from 'vue'
+const activeIndex: Ref<string> = ref<string>(useRoute().path)
 </script>
 
 <style>

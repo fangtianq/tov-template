@@ -1195,6 +1195,18 @@ export default defineComponent({
 <br />
 <br />
 
+### 30. [图片点击全屏](https://github.com/sindresorhus/screenfull)
+
+具体可见 👉 [screenfull](https://github.com/sindresorhus/screenfull)
+
+```node
+pnpm install screenfull -D
+```
+
+<br />
+<br />
+<br />
+
 ## License
 
 Made with [markthree](./LICENSE)

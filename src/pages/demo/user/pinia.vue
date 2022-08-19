@@ -24,5 +24,4 @@ let resetpinia = () => {
 		<div>pinia数据:{{ msg }}</div>
 	</div>
 </template>
-<route> { meta: { layout: 'home' } } </route>
 <style></style>
