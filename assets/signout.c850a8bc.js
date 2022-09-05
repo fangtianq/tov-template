@@ -1,1 +1,0 @@
-import{d as a,e as s,f as c,n as f}from"./index.2be39f57.js";import{a as u}from"./av.4cdc99ed.js";import{b as r}from"./route-block.b5bad31b.js";const _={beforeRouteEnter(n,o,e){e(t=>{t.router.replace("/")})}},m=a({..._,__name:"signout",setup(n,{expose:o}){const e=f();return u(),o({router:e}),(t,p)=>(s(),c("div"))}});typeof r=="function"&&r(m);export{m as default};
