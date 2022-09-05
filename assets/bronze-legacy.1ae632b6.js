@@ -1,0 +1,1 @@
+System.register(["./index-legacy.70a9f988.js"],(function(e){"use strict";var t,n,r;return{setters:[function(e){t=e.b6,n=e.f,r=e.e}],execute:function(){e("default",t({},[["render",function(e,t){return r(),n("div",null,"青铜")}]]))}}}));
