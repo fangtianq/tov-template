@@ -1,0 +1,1 @@
+System.register(["./index-legacy.d974566c.js"],(function(e){"use strict";var t,r,n;return{setters:[function(e){t=e.bb,r=e.f,n=e.e}],execute:function(){e("default",t({beforeRouteEnter(e,t,r){r((e=>{e.$router.replace(t.path)}))}},[["render",function(e,t,u,c,i,f){return n(),r("div")}]]))}}}));
