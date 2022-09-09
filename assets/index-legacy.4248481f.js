@@ -1,1 +1,0 @@
-System.register(["./index-legacy.d974566c.js"],(function(e){"use strict";var t,n,r,c,i;return{setters:[function(e){t=e.y,n=e.ag,r=e.ah,c=e.c,i=e.i}],execute:function(){const u={prefix:Math.floor(1e4*Math.random()),current:0},a=Symbol("elIdInjection");e("u",(e=>{const o=t(a,u),s=n("namespace",r);return c((()=>i(e)||`${s.value}-id-${o.prefix}-${o.current++}`))}))}}}));
