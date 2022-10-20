@@ -1,0 +1,1 @@
+import{y as a,U as o,V as s,c,h as i}from"./index.f34240a3.js";function l(e){return e==null}const r={prefix:Math.floor(Math.random()*1e4),current:0},u=Symbol("elIdInjection"),I=e=>{const n=a(u,r),t=o("namespace",s);return c(()=>i(e)||`${t.value}-id-${n.prefix}-${n.current++}`)};export{l as i,I as u};
