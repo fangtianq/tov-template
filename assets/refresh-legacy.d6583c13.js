@@ -1,0 +1,1 @@
+System.register(["./index-legacy.8b8ab111.js"],(function(e,t){"use strict";var r,n,u;return{setters:[e=>{r=e.be,n=e.e,u=e.j}],execute:function(){e("default",r({beforeRouteEnter(e,t,r){r((e=>{e.$router.replace(t.path)}))}},[["render",function(e,t,r,c,i,s){return u(),n("div")}]]))}}}));
