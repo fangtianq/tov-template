@@ -1,0 +1,1 @@
+import{bq as c,e as s,j as a}from"./index.47ed06ca.js";const n={beforeRouteEnter(o,e,r){r(t=>{t.$router.replace(e.path)})}};function p(o,e,r,t,f,_){return a(),s("div")}const d=c(n,[["render",p]]);export{d as default};

@@ -1,0 +1,1 @@
+System.register(["./index-legacy.e8a3e7ab.js"],(function(e,t){"use strict";var r,s;return{setters:[e=>{r=e.a8,s=e.bk}],execute:function(){const t=e("f",(e=>{const n=r(e)?e:[e],c=[];return n.forEach((e=>{r(e)?c.push(...t(e)):s(e)&&r(e.children)?c.push(...t(e.children)):c.push(e)})),c}))}}}));
