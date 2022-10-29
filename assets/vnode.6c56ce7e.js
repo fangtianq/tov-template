@@ -1,1 +1,0 @@
-import{a8 as o,bk as f}from"./index.47ed06ca.js";const t=r=>{const a=o(r)?r:[r],e=[];return a.forEach(s=>{o(s)?e.push(...t(s)):f(s)&&o(s.children)?e.push(...t(s.children)):e.push(s)}),e};export{t as f};
