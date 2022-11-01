@@ -1,0 +1,1 @@
+System.register(["./webgl_animation_skinning_blending.vue_vue_type_script_setup_true_lang-legacy.15f58b1a.js","./index-legacy.b043d796.js","./stats.module-legacy.01147eb3.js"],(function(e,t){"use strict";return{setters:[t=>{t._,e("default",t._)},()=>{},()=>{}],execute:function(){}}}));
