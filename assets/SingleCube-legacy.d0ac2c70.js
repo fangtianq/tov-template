@@ -1,1 +1,0 @@
-System.register(["./SingleCube.vue_vue_type_script_setup_true_lang-legacy.89add825.js","./index-legacy.a0a0f763.js","./stats.module-legacy.c7c7edab.js"],(function(e,t){"use strict";return{setters:[t=>{t._,e("default",t._)},null,null],execute:function(){}}}));
