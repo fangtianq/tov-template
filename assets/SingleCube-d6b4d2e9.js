@@ -1,1 +1,0 @@
-import"./SingleCube.vue_vue_type_script_setup_true_lang-bb2c5b31.js";import{_ as i}from"./SingleCube.vue_vue_type_script_setup_true_lang-bb2c5b31.js";import"./index-2001c850.js";import"./stats.module-f66f6b0a.js";export{i as default};
