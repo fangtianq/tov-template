@@ -1,1 +1,0 @@
-System.register(["./webgl_loader_collada.vue_vue_type_script_setup_true_lang-legacy.589dcc46.js","./index-legacy.a7a62d9a.js","./stats.module-legacy.c7c7edab.js"],(function(e,t){"use strict";return{setters:[t=>{t._,e("default",t._)},null,null],execute:function(){}}}));
