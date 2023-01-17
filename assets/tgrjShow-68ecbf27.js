@@ -1,0 +1,1 @@
+import"./tgrjShow.vue_vue_type_script_setup_true_lang-08f72d61.js";import{_ as i}from"./tgrjShow.vue_vue_type_script_setup_true_lang-08f72d61.js";import"./index-b70f4fc5.js";import"./tongue-b41b2a05.js";export{i as default};

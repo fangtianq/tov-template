@@ -1,0 +1,1 @@
+System.register(["./tgrjShow.vue_vue_type_script_setup_true_lang-legacy.6cae4a62.js","./index-legacy.3e61315f.js","./tongue-legacy.5b501556.js"],(function(e,t){"use strict";return{setters:[t=>{t._,e("default",t._)},null,null],execute:function(){}}}));

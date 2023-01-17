@@ -1,0 +1,1 @@
+import{N as a,E as o,G as c,c as s,f as r}from"./index-b70f4fc5.js";const i={prefix:Math.floor(Math.random()*1e4),current:0},d=Symbol("elIdInjection"),I=n=>{const e=a(d,i),t=o("namespace",c);return s(()=>r(n)||`${t.value}-id-${e.prefix}-${e.current++}`)};export{I as u};
