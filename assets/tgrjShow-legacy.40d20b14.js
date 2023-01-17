@@ -1,1 +1,0 @@
-System.register(["./tgrjShow.vue_vue_type_script_setup_true_lang-legacy.399103a3.js","./index-legacy.b0cdf09c.js"],(function(e,t){"use strict";return{setters:[t=>{t._,e("default",t._)},null],execute:function(){}}}));
