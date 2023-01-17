@@ -1,0 +1,1 @@
+import"./webgl_loader_collada.vue_vue_type_script_setup_true_lang-d7982a24.js";import{_ as i}from"./webgl_loader_collada.vue_vue_type_script_setup_true_lang-d7982a24.js";import"./index-23313af2.js";import"./stats.module-f66f6b0a.js";export{i as default};
