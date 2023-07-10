@@ -1,0 +1,1 @@
+import{aA as e,j as _,x as s}from"./index-dc3531f8.js";const o={};function t(c,n){return _(),s("div",null,"hello文章ssssssssss列表")}const r=e(o,[["render",t]]),a=Object.freeze(Object.defineProperty({__proto__:null,default:r},Symbol.toStringTag,{value:"Module"}));export{a as _};
