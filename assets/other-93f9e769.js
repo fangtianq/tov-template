@@ -1,1 +1,0 @@
-import{aA as o,a7 as t,x as r,a8 as a,y as n,F as c,j as s}from"./index-dc3531f8.js";const _={};function l(m,f){const e=t("router-view");return s(),r(c,null,[a(" other "),n(e)],64)}const u=o(_,[["render",l]]);export{u as default};

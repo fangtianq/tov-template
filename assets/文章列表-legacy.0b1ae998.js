@@ -1,0 +1,1 @@
+System.register(["./index-legacy.e18a26ca.js"],(function(e,t){"use strict";var r,s,n;return{setters:[e=>{r=e._,s=e.o,n=e.z}],execute:function(){var t=r({},[["render",function(e,t){return s(),n("div",null,"hello文章ssssssssss列表")}]]),u=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"}));e("_",u)}}}));

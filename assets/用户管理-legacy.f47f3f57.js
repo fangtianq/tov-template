@@ -1,0 +1,1 @@
+System.register(["./index-legacy.e18a26ca.js"],(function(e,t){"use strict";var r,n,u;return{setters:[e=>{r=e._,n=e.o,u=e.z}],execute:function(){var t=r({},[["render",function(e,t){return n(),u("div",null,"hello用户管理")}]]),l=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"}));e("_",l)}}}));

@@ -1,0 +1,1 @@
+import{_ as e,o as _,z as o}from"./index-c20bf65e.js";const s={};function t(c,n){return _(),o("div",null,"hello文章ssssssssss列表")}const r=e(s,[["render",t]]),a=Object.freeze(Object.defineProperty({__proto__:null,default:r},Symbol.toStringTag,{value:"Module"}));export{a as _};
