@@ -1,1 +1,0 @@
-System.register(["./index-legacy.e18a26ca.js"],(function(e,t){"use strict";var r,u,n,s,a,o,c,i;return{setters:[e=>{r=e.g,u=e.r,n=e.o,s=e.z,a=e.A,o=e.v,c=e.s,i=e.ay}],execute:function(){e("default",r({__name:"home",setup:e=>(e,t)=>{var r=u("router-view");return n(),s("div",{style:o(`background: ${c(i)().currentRoute.value.meta.bgColor};`)},[a(r)],4)}}))}}}));

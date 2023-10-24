@@ -1,0 +1,1 @@
+import{_ as e,o as _,P as o}from"./index-08a94d7c.js";const t={};function r(n,l){return _(),o("div",null,"hello用户管理")}const c=e(t,[["render",r]]),s=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"}));export{s as _};

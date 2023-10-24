@@ -1,1 +1,0 @@
-System.register(["./index-legacy.e18a26ca.js"],(function(e,t){"use strict";var r,s;return{setters:[e=>{r=e.E,s=e.s}],execute:function(){e("u",((e,t)=>{e.from,e.replacement,e.scope,e.version,e.ref,e.type,r((()=>s(t)),(e=>{}),{immediate:!0})}))}}}));
