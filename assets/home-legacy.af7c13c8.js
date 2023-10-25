@@ -1,0 +1,1 @@
+System.register(["./index-legacy.c981faa3.js"],(function(e,t){"use strict";var r,u,a,n,o,s,c,i;return{setters:[e=>{r=e.d,u=e.r,a=e.o,n=e.P,o=e.a3,s=e.a9,c=e.a4,i=e.a0}],execute:function(){e("default",r({__name:"home",setup:e=>(e,t)=>{var r=u("router-view");return a(),n("div",{style:s(`background: ${c(i)().currentRoute.value.meta.bgColor};`)},[o(r)],4)}}))}}}));

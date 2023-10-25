@@ -1,1 +1,0 @@
-import{d as s,ax as n,cs as a,o as e,P as o,a4 as r,Q as i}from"./index-08a94d7c.js";const _={key:0},c=i("p",null,"你好！[[${user.username}]]",-1),d=[c],u={key:1},f=s({__name:"index",setup(p){let{SpringBootShiroAuthorization:t}=n(a());return(l,h)=>(e(),o("div",null,[r(t).token?(e(),o("div",_,d)):(e(),o("div",u,"请登录"))]))}});export{f as default};

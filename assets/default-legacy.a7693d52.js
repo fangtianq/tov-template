@@ -1,0 +1,1 @@
+System.register(["./index-legacy.c981faa3.js"],(function(e,r){"use strict";var t,n,u,c;return{setters:[e=>{t=e._,n=e.r,u=e.o,c=e.c}],execute:function(){e("default",t({},[["render",function(e,r){var t=n("router-view");return u(),c(t)}]]))}}}));
