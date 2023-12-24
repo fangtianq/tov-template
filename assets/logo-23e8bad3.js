@@ -1,0 +1,1 @@
+import{_ as t}from"./favicon-d22aecf5.js";import{_ as s,r as n,o as r,a as _,w as c,x as a,b as o}from"./index-01622320.js";const i={},l=o("div",{class:"p-8"},[o("img",{src:t,class:"w-12 h-12",alt:"tov"})],-1);function m(p,d){const e=n("router-link");return r(),_("div",null,[c(e,{to:"/"},{default:a(()=>[l]),_:1})])}const x=s(i,[["render",m]]);export{x as _};

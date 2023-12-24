@@ -1,1 +1,0 @@
-System.register(["./index-legacy.c981faa3.js"],(function(e,t){"use strict";var r;return{setters:[e=>{r=e.c0}],execute:function(){e("e",(function(){return(arguments.length>0&&void 0!==arguments[0]?arguments[0]:"").replace(/[|\\{}()[\]^$+*?.]/g,"\\$&").replace(/-/g,"\\x2d")})),e("c",(e=>r(e)))}}}));

@@ -1,0 +1,1 @@
+import{_ as e,o,a as t}from"./index-01622320.js";const _={};function n(c,l){return o(),t("div",null,"helloLoginLog")}const r=e(_,[["render",n]]),s=Object.freeze(Object.defineProperty({__proto__:null,default:r},Symbol.toStringTag,{value:"Module"}));export{s as _};

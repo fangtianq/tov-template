@@ -1,0 +1,1 @@
+import{d as o,r,o as t,a,w as n,G as s,y as c,s as u}from"./index-01622320.js";const i=o({__name:"home",setup(m){return(_,l)=>{const e=r("router-view");return t(),a("div",{style:s("background: ".concat(c(u)().currentRoute.value.meta.bgColor,";"))},[n(e)],4)}}});export{i as default};

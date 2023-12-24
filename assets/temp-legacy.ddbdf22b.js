@@ -1,0 +1,1 @@
+System.register(["./temp.vue_vue_type_script_setup_true_lang-legacy.1ae9bc24.js","./index-legacy.7a69c0b7.js","./style-legacy.ed039441.js"],(function(e,t){"use strict";return{setters:[t=>{t._,e("default",t._)},null,null],execute:function(){}}}));

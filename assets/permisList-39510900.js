@@ -1,0 +1,1 @@
+import{_ as e,o as t,a as o}from"./index-01622320.js";const _={};function r(n,l){return t(),o("div",null,"helloPermisList")}const c=e(_,[["render",r]]),a=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"}));export{a as _};

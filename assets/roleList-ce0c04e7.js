@@ -1,0 +1,1 @@
+import{_ as e,o,a as t}from"./index-01622320.js";const _={};function r(c,n){return o(),t("div",null,"helloroleList")}const l=e(_,[["render",r]]),a=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"}));export{a as _};
