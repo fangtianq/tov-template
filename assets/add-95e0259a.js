@@ -1,0 +1,1 @@
+import{o,a as t,b as n}from"./index-7136dc1e.js";const r={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"};function a(s,e){return o(),t("svg",r,e[0]||(e[0]=[n("path",{fill:"currentColor",d:"M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2Z"},null,-1)]))}const i={name:"mdi-add",render:a};export{i as _};

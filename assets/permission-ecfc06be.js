@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o,a as r}from"./index-7136dc1e.js";const n={};function s(c,t){return o(),r("div",null,"hellopermission")}const _=e(n,[["render",s]]);export{_ as default};

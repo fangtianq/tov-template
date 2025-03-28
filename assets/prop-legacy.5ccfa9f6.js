@@ -1,0 +1,1 @@
+System.register([],(function(e,r){"use strict";return{execute:function(){e("s",(function(e){switch(e){case"tiny":return"mini";case"small":return"tiny";case"medium":return"small";case"large":return"medium";case"huge":return"large"}throw Error(`${e} has no smaller size.`)}))}}}));

@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o as r,a as o}from"./index-7136dc1e.js";const c={};function t(n,s){return r(),o("div",null,"hellosilver")}const _=e(c,[["render",t]]);export{_ as default};

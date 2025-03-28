@@ -1,0 +1,1 @@
+System.register(["./index-legacy.3e6f4511.js"],(function(e,t){"use strict";var r,n,i;return{setters:[e=>{r=e.o,n=e.a,i=e.b}],execute:function(){var t={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"};e("_",{name:"mdi-add",render:function(e,h){return r(),n("svg",t,h[0]||(h[0]=[i("path",{fill:"currentColor",d:"M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2Z"},null,-1)]))}})}}}));

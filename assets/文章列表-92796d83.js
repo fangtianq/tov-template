@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o as _,a as o}from"./index-7136dc1e.js";const s={};function t(c,n){return _(),o("div",null,"hello文章ssssssssss列表")}const r=e(s,[["render",t]]),f=Object.freeze(Object.defineProperty({__proto__:null,default:r},Symbol.toStringTag,{value:"Module"}));export{f as _};

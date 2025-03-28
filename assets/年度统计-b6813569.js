@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o as _,a as o}from"./index-7136dc1e.js";const t={};function r(n,l){return _(),o("div",null,"hello年度统计")}const c=e(t,[["render",r]]),f=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"}));export{f as _};

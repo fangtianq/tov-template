@@ -1,0 +1,1 @@
+import{o,a as t,b as n}from"./index-7136dc1e.js";const l={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"};function r(a,e){return o(),t("svg",l,e[0]||(e[0]=[n("path",{fill:"currentColor",d:"M19 4h-3.5l-1-1h-5l-1 1H5v2h14M6 19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7H6v12Z"},null,-1)]))}const i={name:"mdi-delete",render:r};export{i as _};

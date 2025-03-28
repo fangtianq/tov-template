@@ -1,0 +1,1 @@
+System.register([],(function(e,n){"use strict";return{execute:function(){e("b",(function(e){for(var u=arguments.length,i=new Array(u>1?u-1:0),a=1;a<u;a++)i[a-1]=arguments[a];t.set(e,i),n.includes(e)||1===n.push(e)&&requestAnimationFrame(r)}));var n=[],t=new WeakMap;function r(){n.forEach((e=>e(...t.get(e)))),n=[]}}}}));
